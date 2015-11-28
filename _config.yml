@@ -120,8 +120,8 @@ baseurl: /blog
 markdown: redcarpet
 safe: false
 highlighter: pygments
-title: 博客
-description: 人生到处知何似，应似飞鸿踏雪泥
+title: holly的博客
+description: 每天都否定错误的想法，正确的肯定会来的
 theme: midnight
 disqusname: holly
 
