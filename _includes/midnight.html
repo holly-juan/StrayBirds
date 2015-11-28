@@ -19,11 +19,7 @@
   </head>
   <body>
       <div id="header">
-        <nav>
-          <h1><a href="{{site.baseurl}}/">{{site.title}}</a></h1>---
-          <h3>{{site.description}}</h3>
-          <span class="fork"><a href="https://github.com/{{site.username}}/{{site.baseurl}}/tree/gh-pages">Fork On GitHub</a></span>
-        </nav>
+        <h1><a href="{{site.baseurl}}/">{{site.title}}</a></h1>
       </div><!-- end header -->
 
     <div class="wrapper">
@@ -42,6 +38,7 @@
       </section>
       <hr>
           <span class="credits left">Project maintained by <a href="https://github.com/{{site.username}}">{{site.username}}</a></span>
+          <div class="fork"><a href="https://github.com/{{site.username}}/{{site.baseurl}}/tree/gh-pages">Fork On GitHub</a></div>
       <section id="comments">
         {% if page.comments %}
           {% include comments.ext %}
