@@ -723,6 +723,7 @@ a         { color: #91736b; text-decoration: none; }
 .foot {
     width: 100%;
     height: 100px;
+    color:#888;
 }
 .footer {
     width: 960px;
