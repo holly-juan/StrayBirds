@@ -52,7 +52,7 @@ favicon: http://jekyllrb.com/favicon.png
 
 #Nav config
 nav:
-  - text: 首页
+  - text: Holly的博客
     url: index.html
   - text: 分类目录 
     url: navigations/categories.html
