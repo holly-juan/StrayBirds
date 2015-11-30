@@ -51,6 +51,7 @@ a         { color: #91736b; text-decoration: none; }
     width: 960px;
     height: 120px;
     margin: 0 auto;
+    background-image: url("../images/atom.jpg");
 }
 .logo {
     display: block;
