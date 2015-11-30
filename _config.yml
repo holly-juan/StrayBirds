@@ -93,7 +93,7 @@ customLinks:
       url: http://jekyllrb.com
     - text: Jekyll Theme
       url: http://www.zhanxin.info/themes.html
-    message: Friends
+    message: 博客框架
   - item:
     - text: Font Awesome
       url: http://fortawesome.github.io/Font-Awesome/
