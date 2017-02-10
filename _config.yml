@@ -60,7 +60,7 @@ nav:
     url: navigations/archives.html
   - text: 联系我
     url: navigations/contact.html
-  - text: 友情链接
+  - text: 学习链接
     url: navigations/links.html
 
 #Author config
@@ -87,21 +87,22 @@ follow:
 #Links
 customLinks:
   - item:
-    - text: 掌心
-      url: http://www.zhanxin.info
-    - text: Jekyll
-      url: http://jekyllrb.com
-    - text: Jekyll Theme
-      url: http://www.zhanxin.info/themes.html
-    message: 博客框架
+    - text: react
+      url: https://blog.oyanglul.us/javascript/react-cookbook-mini.html
+    - text: redux
+      url: http://www.jianshu.com/p/3334467e4b32
+    - text: 函数式编程指南
+      url: https://www.gitbook.com/book/llh911001/mostly-adequate-guide-chinese/details
+    message: 学习网址
   - item:
-    - text: Font Awesome
-      url: http://fortawesome.github.io/Font-Awesome/
-    - text: Google Font
-      url: http://www.google.com/fonts/
-    - text: jQuery
-      url: http://jquery.com/
-    message: 其他相关链接
+    - text: middleware
+      url: https://medium.com/lexical-labs-engineering/redux-best-practices-64d59775802e#.c4nrgibvi
+    - text: react-router
+      url: https://github.com/rackt/react-router/blob/master/docs/Glossary.md
+https://segmentfault.com/a/1190000004131718
+    - text: webpack
+      url: https://blog.risingstack.com/using-react-with-webpack-tutorial/
+    message: 相关链接
 
 #comment config
 disqus:
