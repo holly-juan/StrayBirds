@@ -119,7 +119,7 @@ safe: false
 highlighter: pygments
 title: holly的博客
 description: 每天都否定错误的想法，正确的肯定会来的
-theme: hexo-theme-snippet
+theme: jekyll-theme-tactile
 disqusname: holly
 
 # theme can be: hack, leap-day, merlot, midnight, minimal, modernist, slate, time-machine, kunka
