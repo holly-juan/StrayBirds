@@ -8,9 +8,9 @@
 	{% if page.tags.size > 0%}<meta name="keywords" content="{% for tag in page.tags %}{% if tag != "" %}{{ tag }}{% if forloop.index != page.tags.size %},{% endif %}{% endif %}{% endfor %}"/>{% endif %}
     <title>{{ page.title }} - {{ site.name }}</title>
     <!-- Bootstrap Core CSS -->
-    <link href="/css/bootstrap.min.css" rel="stylesheet"/>
+    <link href="blog/css/bootstrap.min.css" rel="stylesheet"/>
     <!-- Custom CSS -->
-    <link href="/css/blog.css" rel="stylesheet"/>
+    <link href="blog/css/blog.css" rel="stylesheet"/>
     <link rel="stylesheet" href="/comment/default.css">
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media
     queries -->
@@ -25,8 +25,8 @@
         <!-- jQuery Version 1.11.0 -->
     <script src="/js/jquery-1.11.0.js"> </script>
     <!-- Bootstrap Core JavaScript -->
-    <script src="/js/bootstrap.min.js"></script>
-    <script src="/js/tongji.js"></script>
+    <script src="blog/js/bootstrap.min.js"></script>
+    <script src="blog/js/tongji.js"></script>
   </head>
   
   <body>
