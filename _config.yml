@@ -7,9 +7,9 @@ github:
 author: "holly"
 email: winfirm#163.com
 name: "holly Blog"
-url: /blog
+url: /
 username: holly-juan
-baseurl: http://holly-juan.github.io
+baseurl: http://holly-juan.github.io/blog
 domain: holly-juan.github.io
 
 all_categories: [
