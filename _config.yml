@@ -4,12 +4,12 @@ permalink: /:categories/:title.html
 excerpt_separator: "<!-- more -->"
 
 github: 
-author: "holly"
+author: "holly-juan"
 email: winfirm#163.com
 name: "holly Blog"
-url: /
+url: http://holly-juan.github.io/blog
 username: holly-juan
-baseurl: http://holly-juan.github.io/blog
+baseurl: /blog
 domain: holly-juan.github.io
 
 all_categories: [
