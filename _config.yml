@@ -9,8 +9,8 @@ email: winfirm#163.com
 name: "holly Blog"
 url: /blog
 username: holly-juan
-baseurl: /blog
-# domain: www.panxw.com
+baseurl: http://holly-juan.github.io
+domain: holly-juan.github.io
 
 all_categories: [
   ["android", "Android开发","/android/index.html"], 
