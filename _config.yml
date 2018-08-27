@@ -1,126 +1,45 @@
+markdown: kramdown
+highlighter: rouge
+permalink: /:categories/:title.html 
+excerpt_separator: "<!-- more -->"
 
-
-
-######################### theme kunka condigure ##############################################
-# Where things are
-source:       .
-destination:  ./_site
-plugins:      ./_plugins
-layouts:      ./_layouts
-paginate:     8
-
-# Handling Reading
-safe:         false
-include:      [".htaccess"]
-exclude:      []
-keep_files:   [".git", ".svn"]
-encoding:     "utf-8"
-markdown_ext: "markdown,mkdown,mkdn,mkd,md"
-textile_ext:  "textile"
-
-# Filtering Content
-show_drafts:  null
-limit_posts:  0
-future:       true
-unpublished:  false
-
-# Conversion
-markdown:     kramdown
-highlighter:  pygments
-lsi:          false
-excerpt_separator: "\n\n"
-
-# Serving
-detach:       false
-port:         4000
-host:         127.0.0.1
-baseurl:      "/blog" # does not include hostname
-
-# Outputting
-permalink:     date
-paginate_path: /page:num
-timezone:      null
-
-
-#Site config
-title: Jekyll Theme
-description: Just another Jekyll theme design and code by zhanxin.info.
-keywords: Jekyll Theme
+github: 
+author: "holly"
+email: winfirm#163.com
+name: "holly Blog"
 url: /blog
-feed: /atom.xml
-favicon: http://jekyllrb.com/favicon.png
-
-#Nav config
-nav:
-  - text: Holly的博客
-    url: index.html
-  - text: 分类目录 
-    url: navigations/categories.html
-  - text: 文章归档
-    url: navigations/archives.html
-  - text: 联系我
-    url: navigations/contact.html
-  - text: 学习链接
-    url: navigations/links.html
-
-#Author config
-author:
-    name: holly
-    email: 
-    imageLink: https://raw.githubusercontent.com/holly-juan/blog/gh-pages/images/me.jpg
-    simpleIntro: 知其然更要知其所以然
-    detailIntro:
-      <p>hello</p>
-#Follow me, you can choose your icon by http://fortawesome.github.io/Font-Awesome/icons/#brand
-follow:
-  - class: icon-weibo
-    url: http://weibo.com
-  - class: icon-renren
-    url: http://renren.com
-  - class: icon-github-alt
-    url: http://github.com
-  - class: icon-twitter
-    url: http://twitter.com
-  - class: icon-google-plus
-    url: http://google.com
-
-#Links
-customLinks:
-  - item:
-    - text: react
-      url: https://blog.oyanglul.us/javascript/react-cookbook-mini.html
-    - text: redux
-      url: http://www.jianshu.com/p/3334467e4b32
-    - text: 函数式编程指南
-      url: https://www.gitbook.com/book/llh911001/mostly-adequate-guide-chinese/details
-    message: 学习网址
-  - item:
-    - text: middleware
-      url: https://medium.com/lexical-labs-engineering/redux-best-practices-64d59775802e#.c4nrgibvi
-    - text: react-router
-      url: https://github.com/rackt/react-router/blob/master/docs/Glossary.md
-https://segmentfault.com/a/1190000004131718
-    - text: webpack
-      url: https://blog.risingstack.com/using-react-with-webpack-tutorial/
-    message: 相关链接
-
-#comment config
-disqus:
-  config: true
-  id: holly
-
-
-#################################### global configure #######################################
-
 username: holly-juan
 baseurl: /blog
-markdown: redcarpet
-safe: false
-highlighter: pygments
-title: holly的博客
-description: 每天都否定错误的想法，正确的肯定会来的
-theme: jekyll-theme-tactile
-disqusname: holly
+# domain: www.panxw.com
 
-# theme can be: hack, leap-day, merlot, midnight, minimal, modernist, slate, time-machine, kunka
-# those themes are all come from GitHub Pages Themes
+all_categories: [
+  ["android", "Android开发","/android/index.html"], 
+  ["react", "React Native", "/react/index.html"],
+  ["web", "Web建站","/web/index.html"], 
+  ["linux", "Linux相关","/linux/index.html"],
+  ["git", "git用法","/git/index.html"],
+  ["program", "软件开发","/program/index.html"],
+  ["vps", "VPS","/vps/index.html"],
+  ["other", "杂记","/other/index.html"],
+  ["read", "书摘","/read/index.html"], 
+  ["about", "关于","/about.html"]
+]
+
+paginate: 10 
+paginate_path: "index_:num"
+
+index_layout: "index.html"
+category_layout: "_layouts/category.html"
+tag_layout: "_layouts/tag.html"
+
+#不使用gems库中的jekyll-paginate-category
+#使用基于jekyll-paginate改写的的栏目分页插件，所以jekyll-paginate还需要用上。
+#gems: [jekyll-paginate,jekyll-paginate-category]
+gems: [jekyll-paginate]
+
+collections:
+  docs:
+    output: true
+
+copyright: []
+#timezone: Asia/Shanghai
