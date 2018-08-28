@@ -9,7 +9,7 @@ email: winfirm#163.com
 name: "holly Blog"
 url: http://holly-juan.github.io/blog
 username: holly-juan
-baseurl: /blog
+baseurl: /
 domain: holly-juan.github.io
 
 all_categories: [
